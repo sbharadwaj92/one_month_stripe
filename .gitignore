@@ -15,3 +15,5 @@
 /log/*.log
 /tmp
 .rvmrc
+# Ignore application configuration
+/config/application.yml
