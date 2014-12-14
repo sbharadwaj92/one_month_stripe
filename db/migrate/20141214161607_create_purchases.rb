@@ -3,7 +3,7 @@ class CreatePurchases < ActiveRecord::Migration
     create_table :purchases do |t|
       t.string :email
       t.integer :amount
-      t.string :email
+      t.string :description
       t.string :currency
       t.string :customer_id
       t.string :card
